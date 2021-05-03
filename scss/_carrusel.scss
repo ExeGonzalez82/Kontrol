@@ -3,6 +3,10 @@
 	margin-bottom: 100px;
 }
 
+.carousel-caption {
+	top: 0;
+}
+
 .mi-caption {
 	display: flex;
 	flex-direction: column;
@@ -11,6 +15,6 @@
 	font-weight: 700;
 	font-size: 40px;
 	text-transform: uppercase;
-	margin: auto;
-	max-width: 800px;
+	
 }
+
