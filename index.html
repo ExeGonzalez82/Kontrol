@@ -6,7 +6,7 @@
 	<meta name="description" content="Venta de materiales de automatizacion y control para la industria">
 	<meta name="keywords" content="automatización mendoza, Festo, Danfoss, variadores de velocidad, sensores, cilindros, presostatos">
 	<title>KONTROL SRL</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">	
+	<link rel="stylesheet" href="css/bootstrap.min.css">		
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="media/favicon.ico" type="image/x-icon">	
@@ -96,14 +96,21 @@
 			</div>
 	</div>
 
-	
-			<div class="titulo container">
-				<div class="row">
-					<div class="col-12">
-						<h2>Representante oficial</h2>
-					</div>
-				</div>
-			</div>
+	<div class="partners container">
+        <h2>REPRESENTANTE OFICIAL</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><a href="https://www.danfoss.com/es-es/" target="_blank"><img src="media/slider_danfoss.png"></a></div>
+            <div class="slide"><a href="https://www.festo.com/cms/es-ar_ar/index.htm" target="_blank"><img src="media/slider_festo.png"></a></div>
+            <div class="slide"><a href="http://www.moeller.es/" target="_blank"><img src="media/slider_eatonmoeller.png"></a></div>
+            <div class="slide"><a href="https://new.abb.com/south-america" target="_blank"><img src="media/slider_abb.png"></a></div>
+            <div class="slide"><a href="https://www.phoenixcontact.com/online/portal/ar?1dmy&urile=wcm:path:/ares/web/home" target="_blank"><img src="media/slider_phoenix.png"></a></div>
+            <div class="slide"><a href="https://www.danfoss.com/es-es/" target="_blank"><img src="media/slider_danfoss.png"></a></div>
+            <div class="slide"><a href="https://www.festo.com/cms/es-ar_ar/index.htm" target="_blank"><img src="media/slider_festo.png"></a></div>
+            <div class="slide"><a href="http://www.moeller.es/" target="_blank"><img src="media/slider_eatonmoeller.png"></a></div>
+            <div class="slide"><a href="https://new.abb.com/south-america" target="_blank"><img src="media/slider_abb.png"></a></div>
+            <div class="slide"><a href="https://www.phoenixcontact.com/online/portal/ar?1dmy&urile=wcm:path:/ares/web/home" target="_blank"><img src="media/slider_phoenix.png"></a></div>
+        </section>        
+    </div>
 	
 
 	<footer class="footer container-fluid">
@@ -132,9 +139,35 @@
 			</div>
 			</div>			
 	</footer>
-	<script src="https://kit.fontawesome.com/dd4cc59a2f.js" crossorigin="anonymous"></script>
 	<script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>	
+    <script src="js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/dd4cc59a2f.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: true,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+    </script>
+		
    	
 </body>
 </html>

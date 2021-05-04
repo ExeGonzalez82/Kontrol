@@ -8,6 +8,14 @@
 }
 
 @media (max-width: 768px) {
+	.partners {
+		h2 {
+			font-size: 1em;
+		}
+	}
+}
+
+@media (max-width: 768px) {
 	.header .navbar {
 		box-shadow: none;
 	}
@@ -17,6 +25,12 @@
 	.navbar-brand {
 		width: 300px;
 		margin-right: -80px;
+	}
+}
+
+@media (max-width: 768px) {
+	.carrusel {
+		margin-bottom: 20px;
 	}
 }
 
