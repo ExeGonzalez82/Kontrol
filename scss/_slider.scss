@@ -1,8 +1,25 @@
-h2{
+h4{    
   text-align:center;
   font-weight: 700;
-  padding: 20px;
+  padding: 10px;
 }
+
+
+.oficial {
+    margin-bottom: 50px;
+    
+}
+
+.oficial img{
+    display: block;
+    margin: auto;  
+    filter: grayscale(100%) opacity(75%);
+}
+
+.oficial img:hover {
+    filter: drop-shadow(1px 1px 1px silver);
+}
+
 /* Slider */
 
 .customer-logos img {
