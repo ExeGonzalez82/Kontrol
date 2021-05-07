@@ -1,23 +1,29 @@
 
 .footer {
-	font-size: 12px;
-	background: #0a0a0a;
-	color: #fff;
-	min-height: 150px;
+	font-size: 13px;
+	text-align: left;
+	background: #171717;
+	color: #999;
+	padding: 50px 0px 60px 100px;
+	
+	h6 {
+		font-weight: 700;
+	}
 
 	li a {
-		color: #4c96d3;
+		color: #fff;
 		text-decoration: none;
 	}
 	
 	.lista__direccion {
-		color: #4c96d3;
-		line-height: 25px;
+		color: #fff;
+		line-height: 40px;
 		
 		.icono-redes {
 			font-size: 15px;
 			color: #4c96d3;
-			margin-right: 5px;						
+			margin-right: 7px;	
+
 		}
 	}
 }
