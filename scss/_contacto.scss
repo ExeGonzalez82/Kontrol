@@ -14,29 +14,38 @@
     position: absolute;
 }
 
-.card {
-    background: #fcfcfc;
+.card-deck {
     margin-top: 90px;
-    margin-bottom: 30px;
+    background: #fcfcfc;
 
-    h5 {
+    .icono-contacto {
+        margin-bottom: 30px;
+        font-size: 40px; 
+        color: #4c96d3;
+    }
+
+    .card-title {
         font-weight: 700;
     }
 
-    a {
-        text-decoration: none;
-        color: #000;
+    .card-text { 
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        a:hover {
+            color: #4c96d3;
+        }
+
     }
 
-    a:hover {
-        color: #4c96d3;
-    }
+
 }
 
-.icono-contacto {
-   font-size: 30px; 
-   color: #4c96d3;
-}
+
+
 
 
 
