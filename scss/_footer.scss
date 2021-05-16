@@ -1,7 +1,8 @@
 .footer {
+	margin-top: 100px;
 	font-size: 13px;
 	text-align: left;
-	background: #171717;
+	background: $negro;
 	color: #999;
 	padding: 100px 20px 110px 50px;
 	
@@ -20,7 +21,7 @@
 		
 		.icono-redes {
 			font-size: 15px;
-			color: #4c96d3;
+			color: $celeste;
 			margin-right: 7px;	
 
 		}

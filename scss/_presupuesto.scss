@@ -3,11 +3,26 @@
 	margin: auto;
 	margin-top: 50px;
 	min-height: calc(100vh - 150px);
-	margin-bottom: 50px;
-	
+	margin-bottom: 50px;	
 }
 
 .form-control {
 	resize: none;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: $negro;
+	border-color: $negro;
+	font-family: Lato;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: $celeste;
+	border-color: $celeste;
 }
 

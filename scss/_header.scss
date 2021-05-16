@@ -8,23 +8,23 @@
 		box-shadow: 0 1px 10px rgba(0,0,0,0.4);
 
 		.botonPresupuesto {
-		    background-color: #0a0a0a;
+		    background-color: $negro;
 		    color: white;
 		    padding: 9px;
 		    border-radius: 5px;
 		    }
 	        
 	    .botonPresupuesto:hover{
-			background-color: #4c96d3;
+			background-color: $celeste;
 			color: white;
 			transition: all 150ms ease-in-out;
 		}
 
 		a{
-			color: black;
+			color: #000;
 
 		&:hover {
-			color: #4c96d3;
+			color: $celeste;
 			transition: all 150ms ease-in-out;
 			}
 		}		

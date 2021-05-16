@@ -1,6 +1,19 @@
 .nosotros {	
-	margin-top: 50px;
-	margin-bottom: 50px;
-    min-height: calc(100vh - 150px);
-    
+	margin: 60px;
+
+    h2 {
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	font-weight: 700;
+    }
+
+    span {
+    	font-weight: bold;
+    	color: $celeste;
+    }
+
+    li {
+    	line-height: 35px;
+    }
+
 }
