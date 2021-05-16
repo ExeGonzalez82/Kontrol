@@ -193,45 +193,14 @@ body {
   line-height: 35px;
 }
 
-.contenedor {
-  margin: 0 auto;
-  max-width: 1000px;
-  width: 100%;
+.productos {
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 
-.contenedor .productos {
-  background-color: white;
-  border-radius: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: stretch;
-  max-width: 650px;
-  margin: auto;
-  margin-top: 110px;
-}
-
-.contenedor .productos .productos__caja {
-  display: flex;
-  flex-direction: row;
-  width: 40%;
-  padding: 35px;
-  box-sizing: border-box;
-}
-
-.contenedor .productos .productos__caja .productos__logo:hover {
+.productos .productos__logo:hover {
   transform: scale(1.07);
   transition: all 400ms ease-in-out;
-}
-
-.contenedor .productos .productos__destacados {
-  display: flex;
-  flex-direction: row;
-}
-
-.contenedor .productos .productos__destacados .productos__listado {
-  margin: 20px;
-  list-style-type: none;
 }
 
 .map-responsive {
