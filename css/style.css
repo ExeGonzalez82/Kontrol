@@ -1,30 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap");
-/* line 1, ../Kontrol/scss/_main.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 6, ../Kontrol/scss/_main.scss */
 body {
   background: #fcfcfc;
   font-family: 'Lato', sans-serif;
 }
 
-/* line 1, ../Kontrol/scss/_header.scss */
 .header {
   height: 72px;
   background-color: white;
 }
 
-/* line 5, ../Kontrol/scss/_header.scss */
 .header .navbar {
   font-size: 14px;
   font-weight: bold;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
 }
 
-/* line 10, ../Kontrol/scss/_header.scss */
 .header .navbar .botonPresupuesto {
   background-color: #171717;
   color: white;
@@ -32,35 +27,29 @@ body {
   border-radius: 5px;
 }
 
-/* line 17, ../Kontrol/scss/_header.scss */
 .header .navbar .botonPresupuesto:hover {
   background-color: #468bc4;
   color: white;
   transition: all 150ms ease-in-out;
 }
 
-/* line 23, ../Kontrol/scss/_header.scss */
 .header .navbar a {
   color: #000;
 }
 
-/* line 26, ../Kontrol/scss/_header.scss */
 .header .navbar a:hover {
   color: #468bc4;
   transition: all 150ms ease-in-out;
 }
 
-/* line 37, ../Kontrol/scss/_header.scss */
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* line 41, ../Kontrol/scss/_header.scss */
 .custom-toggler.navbar-toggler {
   border-color: dimgray;
 }
 
-/* line 45, ../Kontrol/scss/_header.scss */
 .banner {
   background: #bcbcbc;
   width: 100%;
@@ -68,7 +57,6 @@ body {
   height: 100%;
 }
 
-/* line 51, ../Kontrol/scss/_header.scss */
 .banner h1 {
   padding: 60px;
   font-weight: 900;
@@ -82,18 +70,15 @@ body {
   text-align: center;
 }
 
-/* line 1, ../Kontrol/scss/_carrusel.scss */
 .carrusel {
   margin-top: 72px;
   margin-bottom: 75px;
 }
 
-/* line 6, ../Kontrol/scss/_carrusel.scss */
 .carousel-caption {
   top: 0;
 }
 
-/* line 10, ../Kontrol/scss/_carrusel.scss */
 .mi-caption {
   display: flex;
   flex-direction: column;
@@ -105,56 +90,48 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 3, ../Kontrol/scss/_mediaquery.scss */
   .banner h1 {
     font-size: 1.5em;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 13, ../Kontrol/scss/_mediaquery.scss */
   .partners h4 {
     font-size: 1em;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 20, ../Kontrol/scss/_mediaquery.scss */
   .header {
     height: 63px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 26, ../Kontrol/scss/_mediaquery.scss */
   .header .navbar {
     box-shadow: none;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 32, ../Kontrol/scss/_mediaquery.scss */
   .navbar-brand img {
     width: 210px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 38, ../Kontrol/scss/_mediaquery.scss */
   .nav-item {
     margin-right: 16px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 44, ../Kontrol/scss/_mediaquery.scss */
   .navbar-collapse {
     margin: 0 -1rem;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 50, ../Kontrol/scss/_mediaquery.scss */
   .carrusel {
     margin-top: 63px;
     margin-bottom: 20px;
@@ -162,79 +139,66 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 57, ../Kontrol/scss/_mediaquery.scss */
   .banner {
     margin-top: 63px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 63, ../Kontrol/scss/_mediaquery.scss */
   .mi-caption {
     font-size: 20px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 69, ../Kontrol/scss/_mediaquery.scss */
   .card-body {
     margin-bottom: 35px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 75, ../Kontrol/scss/_mediaquery.scss */
   .card-title, .card-text {
     font-size: 16px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 82, ../Kontrol/scss/_mediaquery.scss */
   .nosotros {
     font-size: 14px;
   }
-  /* line 85, ../Kontrol/scss/_mediaquery.scss */
   .nosotros h2 {
     font-size: 20px;
   }
-  /* line 89, ../Kontrol/scss/_mediaquery.scss */
   .nosotros li {
     line-height: 30px;
   }
 }
 
-/* line 1, ../Kontrol/scss/_nosotros.scss */
 .nosotros {
   margin: 60px;
 }
 
-/* line 4, ../Kontrol/scss/_nosotros.scss */
 .nosotros h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 700;
 }
 
-/* line 10, ../Kontrol/scss/_nosotros.scss */
 .nosotros span {
   font-weight: bold;
   color: #468bc4;
 }
 
-/* line 15, ../Kontrol/scss/_nosotros.scss */
 .nosotros li {
   line-height: 35px;
 }
 
-/* line 1, ../Kontrol/scss/_productos.scss */
 .contenedor {
   margin: 0 auto;
   max-width: 1000px;
   width: 100%;
 }
 
-/* line 6, ../Kontrol/scss/_productos.scss */
 .contenedor .productos {
   background-color: white;
   border-radius: 15px;
@@ -247,7 +211,6 @@ body {
   margin-top: 110px;
 }
 
-/* line 17, ../Kontrol/scss/_productos.scss */
 .contenedor .productos .productos__caja {
   display: flex;
   flex-direction: row;
@@ -256,25 +219,21 @@ body {
   box-sizing: border-box;
 }
 
-/* line 24, ../Kontrol/scss/_productos.scss */
 .contenedor .productos .productos__caja .productos__logo:hover {
   transform: scale(1.07);
   transition: all 400ms ease-in-out;
 }
 
-/* line 30, ../Kontrol/scss/_productos.scss */
 .contenedor .productos .productos__destacados {
   display: flex;
   flex-direction: row;
 }
 
-/* line 34, ../Kontrol/scss/_productos.scss */
 .contenedor .productos .productos__destacados .productos__listado {
   margin: 20px;
   list-style-type: none;
 }
 
-/* line 1, ../Kontrol/scss/_contacto.scss */
 .map-responsive {
   overflow: hidden;
   margin-top: 100px;
@@ -284,7 +243,6 @@ body {
   height: 0;
 }
 
-/* line 9, ../Kontrol/scss/_contacto.scss */
 .map-responsive iframe {
   left: 0;
   top: 0;
@@ -293,36 +251,30 @@ body {
   position: absolute;
 }
 
-/* line 17, ../Kontrol/scss/_contacto.scss */
 .card-deck {
   margin-top: 90px;
   background: #fcfcfc;
 }
 
-/* line 21, ../Kontrol/scss/_contacto.scss */
 .card-deck .icono-contacto {
   margin-bottom: 30px;
   font-size: 40px;
   color: #468bc4;
 }
 
-/* line 27, ../Kontrol/scss/_contacto.scss */
 .card-deck .card-title {
   font-weight: 700;
 }
 
-/* line 33, ../Kontrol/scss/_contacto.scss */
 .card-deck .card-text a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 38, ../Kontrol/scss/_contacto.scss */
 .card-deck .card-text a:hover {
   color: #468bc4;
 }
 
-/* line 1, ../Kontrol/scss/_presupuesto.scss */
 .presupuesto {
   max-width: 900px;
   margin: auto;
@@ -331,12 +283,10 @@ body {
   margin-bottom: 50px;
 }
 
-/* line 9, ../Kontrol/scss/_presupuesto.scss */
 .form-control {
   resize: none;
 }
 
-/* line 13, ../Kontrol/scss/_presupuesto.scss */
 .btn-primary {
   color: #fff;
   background-color: #171717;
@@ -347,60 +297,50 @@ body {
   font-weight: bold;
 }
 
-/* line 23, ../Kontrol/scss/_presupuesto.scss */
 .btn-primary:hover {
   color: #fff;
   background-color: #468bc4;
   border-color: #468bc4;
 }
 
-/* line 1, ../Kontrol/scss/_slider.scss */
 h4 {
   text-align: center;
   font-weight: 700;
   padding: 10px;
 }
 
-/* line 8, ../Kontrol/scss/_slider.scss */
 .oficial {
   margin-bottom: 50px;
   text-align: center;
 }
 
-/* line 13, ../Kontrol/scss/_slider.scss */
 .oficial img {
   display: inline-block;
   margin: auto;
   filter: grayscale(100%) opacity(75%);
 }
 
-/* line 19, ../Kontrol/scss/_slider.scss */
 .oficial img:hover {
   filter: drop-shadow(1px 1px 1px silver);
 }
 
 /* Slider */
-/* line 25, ../Kontrol/scss/_slider.scss */
 .customer-logos img {
   filter: grayscale(100%) opacity(60%);
 }
 
-/* line 29, ../Kontrol/scss/_slider.scss */
 .customer-logos img:hover {
   filter: drop-shadow(1px 1px 1px silver);
 }
 
-/* line 33, ../Kontrol/scss/_slider.scss */
 .slick-slide {
   margin: 0px 25px;
 }
 
-/* line 37, ../Kontrol/scss/_slider.scss */
 .slick-slide img {
   width: 100%;
 }
 
-/* line 41, ../Kontrol/scss/_slider.scss */
 .slick-slider {
   position: relative;
   display: block;
@@ -416,7 +356,6 @@ h4 {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 57, ../Kontrol/scss/_slider.scss */
 .slick-list {
   position: relative;
   display: block;
@@ -425,18 +364,15 @@ h4 {
   padding: 0;
 }
 
-/* line 65, ../Kontrol/scss/_slider.scss */
 .slick-list:focus {
   outline: none;
 }
 
-/* line 69, ../Kontrol/scss/_slider.scss */
 .slick-list.dragging {
   cursor: pointer;
   cursor: hand;
 }
 
-/* line 75, ../Kontrol/scss/_slider.scss */
 .slick-slider .slick-track,
 .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
@@ -446,7 +382,6 @@ h4 {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 85, ../Kontrol/scss/_slider.scss */
 .slick-track {
   position: relative;
   top: 0;
@@ -454,24 +389,20 @@ h4 {
   display: block;
 }
 
-/* line 92, ../Kontrol/scss/_slider.scss */
 .slick-track:before,
 .slick-track:after {
   display: table;
   content: '';
 }
 
-/* line 98, ../Kontrol/scss/_slider.scss */
 .slick-track:after {
   clear: both;
 }
 
-/* line 102, ../Kontrol/scss/_slider.scss */
 .slick-loading .slick-track {
   visibility: hidden;
 }
 
-/* line 107, ../Kontrol/scss/_slider.scss */
 .slick-slide {
   display: none;
   float: left;
@@ -479,49 +410,40 @@ h4 {
   min-height: 1px;
 }
 
-/* line 114, ../Kontrol/scss/_slider.scss */
 [dir='rtl'] .slick-slide {
   float: right;
 }
 
-/* line 118, ../Kontrol/scss/_slider.scss */
 .slick-slide img {
   display: block;
 }
 
-/* line 122, ../Kontrol/scss/_slider.scss */
 .slick-slide.slick-loading img {
   display: none;
 }
 
-/* line 126, ../Kontrol/scss/_slider.scss */
 .slick-slide.dragging img {
   pointer-events: none;
 }
 
-/* line 130, ../Kontrol/scss/_slider.scss */
 .slick-initialized .slick-slide {
   display: block;
 }
 
-/* line 134, ../Kontrol/scss/_slider.scss */
 .slick-loading .slick-slide {
   visibility: hidden;
 }
 
-/* line 138, ../Kontrol/scss/_slider.scss */
 .slick-vertical .slick-slide {
   display: block;
   height: auto;
   border: 1px solid transparent;
 }
 
-/* line 144, ../Kontrol/scss/_slider.scss */
 .slick-arrow.slick-hidden {
   display: none;
 }
 
-/* line 1, ../Kontrol/scss/_whatsapp.scss */
 .whatsapp {
   position: fixed;
   width: 60px;
@@ -535,13 +457,11 @@ h4 {
   z-index: 100;
 }
 
-/* line 14, ../Kontrol/scss/_whatsapp.scss */
 .whatsapp-icon {
   margin-top: 13px;
   color: #fff;
 }
 
-/* line 1, ../Kontrol/scss/_footer.scss */
 .footer {
   margin-top: 100px;
   font-size: 13px;
@@ -551,33 +471,26 @@ h4 {
   padding: 100px 20px 110px 50px;
 }
 
-/* line 9, ../Kontrol/scss/_footer.scss */
 .footer h6 {
   font-weight: 700;
 }
 
-/* line 13, ../Kontrol/scss/_footer.scss */
 .footer li a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 18, ../Kontrol/scss/_footer.scss */
 .footer .lista__direccion {
   color: #fff;
   line-height: 40px;
 }
 
-/* line 22, ../Kontrol/scss/_footer.scss */
 .footer .lista__direccion .icono-redes {
   font-size: 15px;
   color: #468bc4;
   margin-right: 7px;
 }
 
-/* line 30, ../Kontrol/scss/_footer.scss */
 .footer .afip {
   margin-top: 20px;
 }
-
-/*# sourceMappingURL=style.css.map */
