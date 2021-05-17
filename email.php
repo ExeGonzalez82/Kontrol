@@ -15,7 +15,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'ep000399.ferozo.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'mail.kontrol-mza.com.ar';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'ventas@kontrol-mza.com.ar';                     //SMTP username
     $mail->Password   = 'Energia623';                         //SMTP password
