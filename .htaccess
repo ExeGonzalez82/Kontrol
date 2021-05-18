@@ -3,3 +3,11 @@
 php_value display_errors 1
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17328331:
 
+
+Options FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^nosotros$ nosotros.html [L]
+RewriteRule ^productos$ productos.html [L]
+RewriteRule ^contacto$ contacto.html [L]
+RewriteRule ^presupuesto$ presupuesto.html [L]
