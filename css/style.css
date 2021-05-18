@@ -111,6 +111,9 @@ body {
   .header .navbar {
     box-shadow: none;
   }
+  .header .navbar .botonPresupuesto {
+    border-radius: 0px;
+  }
 }
 
 @media (max-width: 768px) {
