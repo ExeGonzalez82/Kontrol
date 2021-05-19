@@ -153,18 +153,6 @@ body {
   }
 }
 
-@media (max-width: 992px) {
-  .card-body {
-    margin-bottom: 35px;
-  }
-}
-
-@media (max-width: 768px) {
-  .card-title, .card-text {
-    font-size: 16px;
-  }
-}
-
 @media (max-width: 768px) {
   .nosotros {
     font-size: 14px;
@@ -180,6 +168,15 @@ body {
 @media (max-width: 768px) {
   .footer-fila {
     margin-left: 3rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .contacto {
+    font-size: 14px;
+  }
+  .contacto h5 {
+    font-size: 20px;
   }
 }
 
@@ -214,7 +211,7 @@ body {
 
 .map-responsive {
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 100px;
   padding-bottom: 50%;
   position: relative;
@@ -229,35 +226,38 @@ body {
   position: absolute;
 }
 
-.card-deck {
-  margin-top: 90px;
-  background: #fcfcfc;
+.contacto {
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
-.card-deck .icono-contacto {
-  margin-bottom: 30px;
-  font-size: 40px;
+.contacto h5 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.icono-contacto {
+  font-size: 16px;
   color: #468bc4;
 }
 
-.card-deck .card-title {
-  font-weight: 700;
-}
-
-.card-deck .card-text a {
+.contacto-datos a {
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 
-.card-deck .card-text a:hover {
+.contacto-datos a:hover {
   color: #468bc4;
+}
+
+.contacto-formulario {
+  margin-bottom: 60px;
 }
 
 .presupuesto {
   max-width: 900px;
   margin: auto;
-  margin-top: 50px;
-  min-height: calc(100vh - 150px);
+  margin-top: 60px;
   margin-bottom: 50px;
 }
 

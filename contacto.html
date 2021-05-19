@@ -57,59 +57,52 @@
 			</div>
 	</div>
 
-	<section class="container-fluid card-deck">
-		
-			  
-			  <div class="card-body text-center border-0 col-12 col-xl-3">
-			  	<i class="icono-contacto far fa-clock" class="card-img-top" alt="horario"></i>
-			    <h5 class="card-title d-none d-lg-block">HORARIOS DE ATENCIÓN</h5>
-			    <p class="card-text">Lunes a Viernes</p>
-			    <p class="card-text">08:30 a 17:00</p>
-			    <p class="card-text">Sábado</p>
-			    <p class="card-text">09:00 a 13:00</p>
-			  </div>
-		
-
-		
-			  
-			  <div class="card-body text-center border-0 col-12 col-xl-3">
-			  	<i class="icono-contacto fas fa-phone-alt" class="card-img-top" alt="teléfono"></i>
-			    <h5 class="card-title d-none d-lg-block">TELÉFONOS</h5>
-			    <p class="card-text"><a href="tel:+5492614318935">261 - 4318935</a> (Fijo)</p>
-			    <p class="card-text"><a href="tel:+5492614318971">261 - 4318971</a> (Fijo)</p>
-			    <p class="card-text"><a href="https://wa.me/5492615008219" target="_blank">261 - 5008219</a> (Whatsapp)</p>
-			  </div>
-		
-
-		
-			  
-			  <div class="card-body text-center border-0 col-12 col-xl-3">
-			  	<i class="icono-contacto far fa-envelope" class="card-img-top" alt="teléfono"></i>
-			    <h5 class="card-title d-none d-lg-block">EMAIL</h5>
-			    <p class="card-text"><a href="mailto:ventas@kontrol-mza.com.ar">ventas@kontrol-mza.com.ar</a></p>
-			    <p class="card-text"><a href="mailto:administracion@kontrol-mza.com.ar">administracion@kontrol-mza.com.ar</a></p>
-			  </div>
-		
-
-		
-			  
-			  <div class="card-body text-center border-0 col-12 col-xl-3">
-			  	<i class="icono-contacto fas fa-map-marked-alt" class="card-img-top" alt="dirección"></i>
-			    <h5 class="card-title d-none d-lg-block">DIRECCIÓN</h5>
-			    <p class="card-text">Bandera de Los Andes 623 - San José</p>
-			    <p class="card-text">Guaymallén - Mendoza</p>
-			    <p class="card-text">Argentina</p>
-			  </div>
-		
-	</section>
-
-		
-	<div class="container-fluid">
-	    <div class="map-responsive">
-	        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.1429529950337!2d-68.8271255852559!3d-32.8943884765738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093a25c0e4b7%3A0x27d4f47e555eb46c!2sKONTROL%20S.R.L.!5e0!3m2!1ses!2sar!4v1617122026570!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-	        </iframe>
-	    </div>
-	</div>
+	<section class="contacto container">
+		<div class="row">			
+			<div class="contacto-formulario col-12 col-lg-6 order-2 order-lg-1 py-3">
+				<form>
+					<div class="form-group">
+				     	<label for="exampleFormControlInput1">Nombre y Apellido:</label>
+				     	<input type="text" class="form-control form-control-lg form-control-sm" id="validationCustom01" value="" autocomplete="off" required>
+				  	</div>
+				  	<div class="form-group">
+				     	<label for="exampleFormControlInput1">Empresa:</label>
+				     	<input type="text" class="form-control form-control-lg form-control-sm" autocomplete="off">
+				  	</div>
+				  	<div class="form-group">
+				     	<label for="exampleFormControlInput1">Teléfono:</label>
+				     	<input type="tel" class="form-control form-control-lg form-control-sm" autocomplete="off">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="exampleFormControlInput1">Email:</label>
+				    	<input type="email" class="form-control form-control-lg form-control-sm" id="validationCustom02" value="" autocomplete="off" required>
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="exampleFormControlTextarea1">Mensaje:</label>
+				    	<textarea class="form-control" id="exampleFormControlTextarea1" rows="13" autocomplete="off"></textarea>
+				  	</div>
+				  		<input class="btn btn-primary" type="submit" value="Enviar">
+				</form>				
+			</div>
+			<div class="col-12 col-lg-6 order-1 order-lg-2 text-left px-5">
+					<h5 class="contacto-titulo"><i class="icono-contacto far fa-envelope mr-3"></i>EMAIL</h5>
+						<p class="contacto-datos"><a href="mailto:ventas@kontrol-mza.com.ar">ventas@kontrol-mza.com.ar</a></p>
+						<p class="contacto-datos"><a href="mailto:administracion@kontrol-mza.com.ar">administracion@kontrol-mza.com.ar</a></p>
+					<h5 class="contacto-titulo"><i class="icono-contacto mr-3 fas fa-phone-alt"></i>TELÉFONOS</h5>
+						<p class="contacto-datos"><a href="tel:+5492614318935">261 - 4318935</a> (Fijo)</p>
+						<p class="contacto-datos"><a href="tel:+5492614318971">261 - 4318971</a> (Fijo)</p>
+						<p class="contacto-datos"><a href="https://wa.me/5492615008219" target="_blank">261 - 5008219</a> (Whatsapp)</p>
+					<h5 class="contacto-titulo"><i class="icono-contacto far fa-clock mr-3"></i>HORARIO DE ATENCIÓN</h5>
+						<p>Lunes a Viernes 08:30 a 17:00 - Sábados 09:00 a 13:00</p>
+					<h5 class="contacto-titulo"><i class="icono-contacto fas fa-map-marked-alt mr-3"></i>DIRECCIÓN</h5>
+						<p>Bandera de los Andes 623 - San José - Guaymallén - Mendoza - Argentina</p>	
+					<div class="map-responsive">
+			        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.1429529950337!2d-68.8271255852559!3d-32.8943884765738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093a25c0e4b7%3A0x27d4f47e555eb46c!2sKONTROL%20S.R.L.!5e0!3m2!1ses!2sar!4v1617122026570!5m2!1ses!2sar" width="360" height="450" frameborder="0" style="border:0" allowfullscreen>
+			        	</iframe>
+		        	</div>	
+			</div>
+		</div>		
+	</section>	
 
 	<!-------------------------------------FOOTER-------------------------------------->
 

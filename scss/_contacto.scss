@@ -1,6 +1,6 @@
 .map-responsive {
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 100px;
     padding-bottom: 50%;
     position: relative;
@@ -14,42 +14,34 @@
     position: absolute;
 }
 
-.card-deck {
-    margin-top: 90px;
-    background: #fcfcfc;
+.contacto {
+    margin-top: 60px;
+    margin-bottom: 50px;
 
-    .icono-contacto {
-        margin-bottom: 30px;
-        font-size: 40px; 
-        color: $celeste;
+    h5 { 
+        padding-top: 20px;      
+        font-weight: bold;
     }
-
-    .card-title {
-        font-weight: 700;
-    }
-
-    .card-text { 
-
-        a {
-            text-decoration: none;
-            color: #000;
-        }
-
-        a:hover {
-            color: $celeste;
-        }
-
-    }
-
-
 }
 
+.icono-contacto {
+    font-size: 16px; 
+    color: $celeste;
+} 
 
+.contacto-datos {
+        
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
+    a:hover {
+        color: $celeste;
+    }
+        
+}
 
-
-
-
-
-
-
+.contacto-formulario {
+    margin-bottom: 60px;
+}
